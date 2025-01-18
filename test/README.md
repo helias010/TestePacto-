@@ -10,12 +10,13 @@
 ```
 
 ## 2)Qual será o retorno se eu fizer um POST em http://localhost:9099/generic-post passando o seguinte body?
-## {
-##   "planet": "Coruscant 985",
-##    "ranking": 42,
-##  "classe": "Jedi Knight"
-## }
-
+```
+ {
+   "planet": "Coruscant 985",
+    "ranking": 42,
+  "classe": "Jedi Knight"
+ }
+```
    **Resposta:**
    ```
    {
