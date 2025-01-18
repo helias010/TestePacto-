@@ -43,15 +43,17 @@
 O erro ocorre porque o cálculo envolve o método getRanking, que está sendo utilizado como divisor. Se o valor retornado por getRanking for zero, haverá uma tentativa de realizar uma divisão por zero, o que não é permitido em operações matemáticas e resulta em erro.
 
 ## 4)Como podemos mudar a porta onde a aplicação sobe?
-Resposta:
+**Resposta:**
+
 dentro do application.properties
 server.port=9099
 so alterar a port para qual você quiser.
 
-5) Agora você vai ter que programar. Massa, hein?! Quando acessamos o endpoint http://localhost:9099/vader/skills, a aplicação retorna uma lista de habilidades do Darth Vader. Faça com que o sistema tenha um endpoint igual a esse, só que com seu nome e suas habilidades. Por exemplo, o meu seria http://localhost:9099/joaoalcides/skills. Detalhe muito importante: ao fazer isso, você não pode impactar o do Darth Vader. Envie para mim seu usuário do github, vou te adicionar nesse projeto para que você possa subir uma branch com suas alterações.
-   Resposta:
+## 5) Agora você vai ter que programar. Massa, hein?! Quando acessamos o endpoint http://localhost:9099/vader/skills, a aplicação retorna uma lista de habilidades do Darth Vader. Faça com que o sistema tenha um endpoint igual a esse, só que com seu nome e suas habilidades. Por exemplo, o meu seria http://localhost:9099/joaoalcides/skills. Detalhe muito importante: ao fazer isso, você não pode impactar o do Darth Vader. Envie para mim seu usuário do github, vou te adicionar nesse projeto para que você possa subir uma branch com suas alterações.
+   **Resposta:**
 
-   Para fazer isso eu criei um outro controller e service, ficou com http://localhost:9099/helias/skills e resultado do get
+**Para fazer isso eu criei um outro controller e service, ficou com http://localhost:9099/helias/skills e resultado do get**
+```
    {
     "Helias Kenobi": [
         "Telecinese",
@@ -63,6 +65,7 @@ so alterar a port para qual você quiser.
         "Piloto de Fuga"
     ]
 }
+```
 
 
 
