@@ -15,8 +15,8 @@
 ##  "classe": "Jedi Knight"
 ## }
 
-**Resposta: **
-**{**
+   **Resposta:**
+   **{**
 **    "planetAbreviado": "Coruscant",**
 **    "rankingMultiplicado": 37944,**
 **    "classeAbreviado": "Jedi"**
