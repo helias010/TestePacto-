@@ -244,9 +244,12 @@ Get http://localhost:9099/jedis
 
 
 ## 8) Anakin Skywalker antes de se tornar o Darth Vader, deixou para você a última missão, após isso, estará apto a se tornar um Jedi. Essa missão é a de criar, com Native SQL as seguintes consultas, com seus respectivos endpoints:
-**a) Listar todos os mestres Jedis e seus aprendizes;
-**b) Listar todos Jedis cujo midichlorians sejam acima de 9000;
-**c) Listar por categoria, quantos são os Jedis;
+a) Listar todos os mestres Jedis e seus aprendizes; 
+
+b) Listar todos Jedis cujo midichlorians sejam acima de 9000;
+
+c) Listar por categoria, quantos são os Jedis;
+
 
 
 **Resposta:**
