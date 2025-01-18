@@ -1,11 +1,11 @@
 ## 1) Yoda: Como primeira parte de seu treinamento, capaz você deverá ser para subir a aplicação;
   **Resposta: após fazer clone do repositório dado para começar fazer o projeto, ao tentar subir a aplicação na qual eu usei o eclipse estava com um problema no json,**
    **foi quando olhei o arquivo e vi a falta da dependencia e coloquei.**
-   <dependency>
+  ``` <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20210307</version>
-   </dependency>
+ ```  </dependency>
 
 
 ## 2)Qual será o retorno se eu fizer um POST em http://localhost:9099/generic-post passando o seguinte body?
@@ -16,11 +16,11 @@
 ## }
 
    **Resposta:**
-   **{**
-**    "planetAbreviado": "Coruscant",**
-**    "rankingMultiplicado": 37944,**
-**    "classeAbreviado": "Jedi"**
-**}**
+   {
+    "planetAbreviado": "Coruscant",
+    "rankingMultiplicado": 37944,
+    "classeAbreviado": "Jedi"
+}
 
 
 3)Se mudarmos o campo “ranking” para 0, a aplicação dá um erro. Por quê?
