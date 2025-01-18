@@ -69,11 +69,11 @@ so alterar a port para qual você quiser.
 
 
 
-6) Mestre Windu explica que todo Jedi já foi um Padawan, então necessário é definir nome, status (padawan/jedi/mestre jedi) e um mentor para cada Jedi;
+## 6) Mestre Windu explica que todo Jedi já foi um Padawan, então necessário é definir nome, status (padawan/jedi/mestre jedi) e um mentor para cada Jedi;
 
-7) Qui-Gon ao fazer contato, estando no mundo espiritual da Força, nos diz que é possível mensurar a quantidade de midichlorians em cada Jedi, por isso, você deverá informar isso lá;
+## 7) Qui-Gon ao fazer contato, estando no mundo espiritual da Força, nos diz que é possível mensurar a quantidade de midichlorians em cada Jedi, por isso, você deverá informar isso lá;
 
-Reposta do 6 e 7 :
+**Reposta do 6 e 7 :**
 
 Foi feito um models para criar a tabela no banco de dados na qual estou usando o PostgreSQL. Fazendo ligação relacionado entre ID e IdMentor.
 
@@ -82,6 +82,7 @@ Além disso foi criado um repository também.
 E foi criado um controlle, service e DTO. 
 
 Post http://localhost:9099/jedis
+```
 [
   {
     "nome": "Yoda",
@@ -137,9 +138,10 @@ Post http://localhost:9099/jedis
     "idMentor": 3
   }
 ]
+```
 
 Get http://localhost:9099/jedis
-
+```
 [
     {
         "id": 1,
@@ -238,7 +240,7 @@ Get http://localhost:9099/jedis
         "midichlorians": 11000
     }
 ]
-
+```
 
 
 8) Anakin Skywalker antes de se tornar o Darth Vader, deixou para você a última missão, após isso, estará apto a se tornar um Jedi. Essa missão é a de criar, com Native SQL as seguintes consultas, com seus respectivos endpoints:
