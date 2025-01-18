@@ -26,8 +26,9 @@
 }
 
 ```
-3)Se mudarmos o campo “ranking” para 0, a aplicação dá um erro. Por quê?
- Resposta:
+##3)Se mudarmos o campo “ranking” para 0, a aplicação dá um erro. Por quê?
+**Resposta:**
+ ```
      public ProcessDTO process(GenericoDTO generico){
         ProcessDTO processDTO = new ProcessDTO();
         processDTO.setClasseAbreviado(generico.getClasse().split(" ")[0]);
@@ -38,6 +39,7 @@
     }
 
 }
+```
 O erro ocorre porque o cálculo envolve o método getRanking, que está sendo utilizado como divisor. Se o valor retornado por getRanking for zero, haverá uma tentativa de realizar uma divisão por zero, o que não é permitido em operações matemáticas e resulta em erro.
 
 4)Como podemos mudar a porta onde a aplicação sobe?
