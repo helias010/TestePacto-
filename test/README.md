@@ -17,13 +17,14 @@
 ## }
 
    **Resposta:**
+   ```
    {
     "planetAbreviado": "Coruscant",
     "rankingMultiplicado": 37944,
     "classeAbreviado": "Jedi"
 }
 
-
+```
 3)Se mudarmos o campo “ranking” para 0, a aplicação dá um erro. Por quê?
  Resposta:
      public ProcessDTO process(GenericoDTO generico){
